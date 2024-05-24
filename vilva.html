@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link hred="https://stackpath.bootstrpcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <style>
     .column-content a {
@@ -14,22 +15,32 @@
     .column-content a:hover {
       color : white;
     }
+    .navbar-nav {
+      flex :1;
+      justify-content : space-between;
+    }
+    .navbar-icons {
+      display : flex;
+      align-items:center;
+      gap:1rem;
+    }
     </style>
-    <title>Services</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Vilva</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+      <div class="container.fluid">
         <a class="navbar-brand" href="#"><img src="https://vilvatech.in/wp-content/uploads/2022/05/vilvatech-logo-.png" width="200px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item px-3">
+            <li class="nav-item px-2">
               <a class="nav-link active" aria-current="page" href="https://vilvatech.in/"><b>Home</b></a>
             </li>
-            <li class="nav-item px-3">
+            <li class="nav-item px-2">
               <a class="nav-link" href="https://vilvatech.in/about-us/"><b>About Us</b></a>
             </li>
             <li class="nav-item dropdown">
@@ -62,10 +73,78 @@
             <li class="nav-item px-3">
               <a class="nav-link" href="tel:+917339333614"><b>+91 73393 33614</b></a>
             </li> 
+            <li class="nav-item px-1">
+              <a class="nav-link" href="https://vilvatech.in/whatsapp/"><i class="bi bi-whatsapp" style = "color : green;"></i></i></a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="https://www.facebook.com/402026297285210"><i class="bi bi-facebook" style = "color:cornflowerblue;"></i></a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="https://www.instagram.com/vilva_tech/"><i class="bi bi-instagram" style = "color : black;"></i></i></i></a>
+            </li>
+            <li class="nav-item px-1">
+              <a class="nav-link" href="https://www.linkedin.com/company/vilvatech-india"><i class="bi bi-linkedin" style = "color : cornflowerblue;"></i></i></i></a>
+            </li> 
+            <li class="nav-item px-1">
+              <a class="nav-link" href="https://www.youtube.com/channel/UCbAIVfkPWIRNCrzKckQXp_w"><i class="bi bi-youtube" style = "color : red;"></i></a>
+            </li>
           </ul>
         </div>
       </div>
     </nav><br>
+    <div class="container.fluid bg-brown">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3 text-black" >
+          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+            <img src="https://vilvatech.in/wp-content/uploads/2022/05/vilvatech-logo-.png" width="300px" height="50px">
+          </a><br>
+          <p style="width: 200%;">VilvaTech established in 2018 with a great vision to bring technology closer to people at an affordable cost. VilvaTech is headquartered in Thanjavur and serving Eastern Tamilnadu region. </p>
+        <br><br>
+        <iframe src="https://developers.google.com/maps/documentation/urls/get-started"></iframe>
+    </div>
+        <div class="col mb-3">
+    
+        </div>
+    
+        <div class="col mb-3 text-black">
+        
+          <ul class="nav flex-column" class="list-unstyled">
+            <li class="nav-item mb-2"><i class="bi bi-telephone-fill" style = "color : darkblue;"></i><a href="tel:+919384222261" class="nav-link p-0 text-body-secondary" style="color:black;"><b>Phone</b></a><br>
+            <p style="color:black;">+91 93842 22261 <br> +91 73393 33614</p></li>
+            <h6><b>Quick links</b></h6>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">About</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Career</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Free Consultation</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Knowledge Hub</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Projects</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">FAQ</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Contact</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3 text-black">
+         
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><i class="bi bi-envelope-at-fill" style = "color : darkblue;"></i><a href="mailto:sales@vilvatech.in support@vilvatech.in" class="nav-link p-0 text-body-secondary"  style="color:black;"><b>Email</b></a><br>
+              <p style="color:black;">sales@vilvatech.in support@vilvatech.in</p></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color: black;"><b>Opening Hours</b></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black">Mon-Fri : 9.30 AM - 6.30 PM</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Sat & Sun : By Appointment</a></li>
+          </ul>
+        </div>
+        <div class="col mb-3 text-white">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><i class="bi bi-geo-alt-fill" style = "color : darkblue;"></i><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;" ><b>Headquarters</b></a><br>
+              <p style="color:black;" >#27,Rahman Nagar,Thanjavur,M.C.Road,Tamilnadu,India - 613 004.</p></li>
+            <li><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">15B,Gangai Amman Kovil Street,Vadapalani,Chennai - 600 026</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;"><b>Our Branches</b></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Trichy|Kumbakonam|Chennai</a></li><br>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;"><b>Download Brochure</b></a>
+            <img src="https://vilvatech.in/wp-content/uploads/2022/05/vilvatech-qr-code-1-150x150.png"></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
