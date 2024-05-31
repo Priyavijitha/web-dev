@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <style>
     .bg-purple {
@@ -58,10 +59,26 @@
     .bg-skyblue {
         color:rgb(205,224,255);
     }
+    .btn-custom {
+      background-color: #462470;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #462470;
+      color: white;
+    }
+    .wishlist-icon {
+        color:black;
+        cursor:pointer;
+        transition:color 0.3s;
+    }
+    .wishlist-icon:hover {
+        color :palevioletred;
+    }
     </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <title>Shreem</title>
+    <script src="https://kit.fontawesome.com/4b527de4ca.js" crossorigin="anonymous"></script>
+    <title>products</title>
     </head>
     <body>
         <div class="container.fluid mt-5 bg-purple text-center">
@@ -123,7 +140,64 @@
             </ul>
         </div>
       </div>
-    </nav><br>
+    </nav>
+    <hr>
+    <p style="text-align:left; padding-left:20px;"> Home > Cookies > Assorted Cookies</p>
+    <br>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://shreemsweetsandbakery.com/wp-content/uploads/2020/11/Assorted-cookies-2-600x600.jpg" height="300px" width="500px">
+          </div>
+          <div class="col-md-6">
+            <h3><b>Assorted Cookies</b></h3>
+            <h5>₹120.00 – ₹240.00</h5>
+            <br>
+            <p style="text-align:left;">Assorted cookies are a variety of 10 delicious cookies packed in a single box to give a different taste experience at a time.​</p>
+            <ul class="bullet-list">
+                <li>Traditionally hand-made biscuits</li>
+                <li>Snacks for all occasions</li>
+                <li>Classic light and crispy English Dessert</li>
+                <li>A great tea time snack</li>
+            </ul>
+            <p style="text-align:left; padding-right:10px;"><b>Note:</b> The product may slightly differ in shape and texture compared to actual product images shown.</p>
+            <br>
+            <label><b>CHOOSE VARIANTS</b></label>
+            <br>
+            <br>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Choose an option
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Choose an option</a></li>
+                  <li><a class="dropdown-item" href="#">250g</a></li>
+                  <li><a class="dropdown-item" href="#">500g</a></li>
+                </ul>
+              </div>
+              <br> 
+              <div class="row">
+                <div class="col-3">  
+                    <input type="number" class="form-control" id="quantity" value="1" min="1" max="10" style="width:100px;"> 
+                </div>
+                <div class="col">
+                    <button type="submit" class="btn btn-custom" style="border-radius:20px;">+ ADD TO CART</button>
+                </div>
+              </div>
+            <br>
+            <br>
+            <i class="far fa-heart fa-2x wishlist-icon" style="width:5px;"></i>
+            <br>
+            <br>
+            <p style="text-align: left;"><b>SKU:</b> N/A</p>
+            <p style="text-align: left;"><b>Category:</b> Cookies</p>
+            <p style="text-align: left;"><b>Share This Product:</b>   <i class="bi bi-facebook"></i>   <i class="bi bi-twitter"></i>   <i class="bi bi-pinterest"></i>   <i class="bi bi-google"></i>   <i class="bi bi-linkedin"></i></p>
+          </div>
+          <br>
+        </div>
+      </div>
+      <br>
+
 
     <div class="container.fluid">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">

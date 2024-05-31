@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    .bg-black {
+      background-color:black;
+    }
+    .icon-container {
+      text-align : center;
+    }
+    .center {
+        text-align:center;
+    }
+    .icon {
+        font-size:35px;
+    }
+    .text {
+        font-size : 35px;
+    }
+    .navbar-nav {
+      justify-content : space-between;
+    }
+    .btn-custom {
+      background-color: #144FA0;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #144FA0;
+      color: white;
+    }
+    .column {
+        flex:1;
+        border:1px;
+        padding : 10px;
+    }
+    select {
+        margin:0;
+        padding:5px;
+        border : 1px solid white;
+        outline:none;
+    }
+    a {
+        text-decoration:none;
+    }
+    </style>
+    <title>career</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/4b527de4ca.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img src="https://vilvatech.in/wp-content/uploads/2022/05/vilvatech-logo-.png" width="200px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://vilvatech.in/" style="color:black;"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://vilvatech.in/about-us/" style="color:black;"><b>About Us</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <b style="color:black;" >Solutions</b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://vilvatech.in/home-automation/">Home Automation</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://vilvatech.in/green-energy-solutions/">Green Energy Solutions</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://vilvatech.in/safety-and-security/">Safety and Security</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://vilvatech.in/hospital-solutions/">Hospital Solutions</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://vilvatech.in/enterprise-solutions/">Enterprise Solutions</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://vilvatech.in/hotel-automation/">Hotel Automation</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="https://vilvatech.in/#" style="color:black;"><b>Knowledge Hub</b></a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="https://vilvatech.in/our-projects/" style="color:black;"><b>Projects</b></a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="https://vilvatech.in/career/" style="color:black;"><b>Career</b></a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="tel:+917339333614" style="color:black;"><b>+91 73393 33614</b></a>
+              </li> 
+              <li class="nav-item px-1">
+                <a class="nav-link" href="https://vilvatech.in/whatsapp/"><i class="bi bi-whatsapp" style = "color : green;"></i></i></a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="https://www.facebook.com/402026297285210"><i class="bi bi-facebook" style = "color:cornflowerblue;"></i></a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="https://www.instagram.com/vilva_tech/"><i class="bi bi-instagram" style = "color : black;"></i></i></i></a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="https://www.linkedin.com/company/vilvatech-india"><i class="bi bi-linkedin" style = "color : cornflowerblue;"></i></i></i></a>
+              </li> 
+              <li class="nav-item px-1">
+                <a class="nav-link" href="https://www.youtube.com/channel/UCbAIVfkPWIRNCrzKckQXp_w"><i class="bi bi-youtube" style = "color : red;"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <div class="row" style="padding-bottom:50px;">
+        <div class="card" style="width:100%; height:300px;">
+          <img src="https://www.rubi.com/en/blog/wp-content/uploads/2023/02/header-v-small-1024x684.jpg" style="width:100%; height:300px;">
+        </div>
+          <div class="col-md-12">
+            <div class="card" style="width:50%; height:300px;  opacity:0.8; margin-top:-300px;">
+              <br>
+              <br>
+              <h1 style="color:#0A043C;; padding-left:20px; padding-top:80px;"><b>Career</b></h1>
+              <p style="color:#0A043C;; padding-left:20px;"> Home > Career </p>
+            </div> 
+          </div>
+      </div>
+    </div>
+     <br> 
+     <br>
+     <h1 style="text-align:center; color:#0A043C;">Career at <b>VilvaTech</b></h1>
+     <br>
+     <h4 style="text-align:center; color: #0A043C;">Roles and Responsibilities</h4>
+     <br>
+     <br>
+     <div class="row">
+        <div class="column align-items-center" style="padding-left: 150px;">
+        <h4 style="color:#0A043C; text-align: center;">Technical Sales Engineer</h4>
+            <br>
+            <img src="https://vilvatech.in/wp-content/uploads/2023/01/carrer-1.jpg" width="500px" height="300px" style="border-radius:15px;">
+            <br>
+            <br>
+            <p style="text-align:left;"><b>No of vacancies: </b> 02</p>
+            <p style="text-align:left;"><b>Qualifications: </b> Engineers / MBA / Any Graduates or Post Graduates.</p>
+            <p style="text-align:left;"><b>Employment Type: </b> Full Time</p>
+            <p style="text-align:left;"><b>Experience: </b>0-2 Years (*Freshers also can apply)</p>
+            <p style="text-align:left;"><b>Job Location: </b> Thanjavur and Trichy</p>
+            <br>
+            <br>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" style="color:#0A043C;" >
+                        Business Revenue - Weightage- 75 %
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul class="bullet-list">
+                            <li>Chasing Business Targets for the Area</li>
+                            <li>Calling and visiting customers – making technical presentations, Demonstrating solutions, and building relationship</li>
+                            <li>Planning daily sales schedules and systematically achieving KRA’s of Sales Targets, Payment Recovery, New Business Acquisition, and Customer Satisfaction milestones</li>
+                            <li>Managing or coordinating with the Technical team to resolve Customer queries, demands, urgencies, and preferences both technical or procedural.</li>
+                            <li>Monitor and timely reporting of competitor</li>
+                            <li>Supporting Solution, Technical, and procurement teams to ensure the product/solutions are delivered to customers without any issues.</li>
+                         </ul>  
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" style="color:#0A043C;" >
+                        Process Compilance & Reporting
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul class="bullet-list">
+                            <li>Daily reporting and sales CRM up-dating</li>
+                            <li>Being part of reviews and sales-related discussions</li>
+                            <li>Timely coordination with the Solution team  for estimates and etc</li>
+                            <li>Following internal policies and processes in a timely manner-expense reimbursement, discipline, etc</li>
+                          </ul> 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" style="color:#0A043C;" >
+                     Team Work & Collaboration
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul class="bullet-list">
+                            <li>Supporting the team in the zone- be it technical/ price/ data, etc</li>
+                            <li>Maintaining zero communication breakdowns with other team members</li>
+                            <li>Provide technical assistance and problem-solving for the team related to product/solutions sales.</li>
+                            <li>Maintain a good teamwork spirit to help others in the team, and develop rapport and relationships with teams in other regions in the zone.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour" style="color:#0A043C;" >
+                      Learning and Development
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <li>Attending skill-building workshops as mandated by the organization and achieving expected scores</li>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive" style="color:#0A043C;" >
+                      Skills
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <ul class="bullet-list">
+                             <li>Drive for results</li>
+                             <li>Quick learner</li>
+                             <li>Persuasion Skills</li>
+                             <li>Confidence</li>
+                             <li>Interpersonal Skills</li>
+                             <li>Self-motivated</li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+        <div class="column align-items-center" style="padding-right: 80px;">
+        <h4 style="color:#0A043C; text-align: center;">Tele Caller</h4>
+        <br>
+            <img src="https://vilvatech.in/wp-content/uploads/2023/01/career-2.jpg" width="500px" height="300px" style="border-radius:15px;">
+            <br>
+            <br>
+            <p style="text-align:left;"><b>No of vacancies: </b> 01</p>
+            <p style="text-align:left;"><b>Qualifications: </b> Any Graduates or Post Graduates.</p>
+            <p style="text-align:left;"><b> Employment Type:</b> Full Time</p>
+            <p style="text-align:left;"><b> Experience: </b>0-2 Years (*Freshers also can apply)</p>
+            <p style="text-align:left;"><b> Job Location:</b>Thanjavur </p>
+            <br>
+            <br>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix" style="color:#0A043C;" >
+                        Responsibilities
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul class="bullet-list">
+                            <li>Responsible for Calling existing and prospective customers from the generated data</li>
+                            <li>Responsible for Proper follow-up and maintaining conversation records and updating the CRM regularly</li>
+                            <li>Should be fluent in English and Tamil</li>
+                            <li>Should have good negotiation skills/convincing power</li>
+                         </ul>  
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven" style="color:#0A043C;" >
+                       Learning & Development
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul class="bullet-list">
+                            <li>Attending skill-building workshops as mandated by the organization and achieving expected scores</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight" style="color:#0A043C;" >
+                    Skills
+                    </button>
+                  </h2>
+                  <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul class="bullet-list">
+                           <li>Results Driven</li>
+                           <li>Persistence</li>
+                           <li>Time Management</li>
+                           <li>Understanding customer needs</li>
+                           <li>Prospecting skills</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine" style="color:#0A043C;" >
+                      Motivation for Sales
+                      </button>
+                    </h2>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <li>Handles Rejection</li>
+                        <li>Professionalism</li>
+                        <li>Communications</li>
+                      </div>
+                    </div>
+                </div>
+        </div>
+     </div>
+     <br>
+     <br>
+
+     <p style="text-align:center; padding-left:200px; padding-right:200px; font-size : 18px;">We Are always looking for great people. If you are interested and willing to join our team, Fill up the form below and send a copy of your resume to <a href="mailto"><b style="color:#0A043C;">hr@vilvatech.in</b></a> along with the form.</p>
+     <div style="padding-left:350px; padding-right:350px;">
+     <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First Name*" aria-label="First name">
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last Name*" aria-label="Last name">
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col">
+          <input type="email" class="form-control" placeholder="Email*" aria-label="Email*">
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+        <div class="col">
+          <input type="tel" class="form-control" placeholder="Phone*" aria-label="Phone*">
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="form-group">
+        <input type="text" class="form-control" id="phone" placeholder="Address Line 1" name="address" required>
+        <div class="invalid-feedback">
+          Please provide a valid state.
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="form-group">
+        <input type="text" class="form-control" id="phone" placeholder="Address Line 2" name="address" required>
+        <div class="invalid-feedback">
+          Please provide a valid state.
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="City*" aria-label="City*">
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="State*" aria-label="State*">
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="form-group">
+        <input type="number" class="form-control" id="phone" placeholder="Postal/Zip Code*" name="code" required>
+        <div class="invalid-feedback">
+          Please provide a valid state.
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="form-group">
+        <label>Applied Field</label>
+        <select class="form-control form-check-inline" id="exampleFormControlSelect1" required>
+          <option>---</option>
+          <option>HR</option>
+          <option>Sale</option>
+          <option>Service</option>
+          <option>Services</option>
+          <option>Marketing</option>
+          <option>R & D</option>
+        </select>
+        <div class="invalid-feedback">
+          Please provide a valid state.
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="form-group">
+        <div class="d-flex">
+            <label style="padding-right:20px;">Type of work:</label>
+          <div class="form-check mr-3" style="padding-right:20px;">
+            <input class="form-check-input" type="radio" name="options" id="option1" value="option1" checked>
+            <label class="form-check-label" for="option1">Part time</label>
+          </div>
+          <div class="form-check mr-3" style="padding-right:20px;">
+            <input class="form-check-input" type="radio" name="options" id="option2" value="option2">
+            <label class="form-check-label" for="option2">Full time</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="options" id="option3" value="option3">
+            <label class="form-check-label" for="option3">Internship</label>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="form-group">
+        <input type="text" class="form-control" id="phone" placeholder="Experience*" name="experience" required>
+        <div class="invalid-feedback">
+          Please provide a valid state.
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="mb-3">
+        <label for="formFileSm" class="form-label">Upload your Resume*</label>
+        <input class="form-control form-control-sm" id="formFileSm" type="file">
+      </div>
+      <br>
+      <br>
+      <div class="form-group">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Tell Us About Yourself*" required></textarea>
+        <div class="invalid-feedback">
+          Please provide a valid state.
+        </div>
+      </div>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-custom">Send</button>
+    </form>
+    </div>
+</div>
+    <br>
+    <br>
+    <br>
+</div>
+    <div class="container.fluid bg-brown">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="col mb-3 text-black" >
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              <img src="https://vilvatech.in/wp-content/uploads/2022/05/vilvatech-logo-.png" width="300px" height="50px">
+            </a><br>
+            <p style="width: 200%;">VilvaTech established in 2018 with a great vision to bring technology closer to people at an affordable cost. VilvaTech is headquartered in Thanjavur and serving Eastern Tamilnadu region. </p>
+          <br><br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.7751042025566!2d79.10201297408713!3d10.751808459649302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baabf0c6eaed8b9%3A0xc652dfe3fae3f3ef!2sVilvaTech%20%7C%20Home%20Automation%20%7C%20Green%20Energy%20Solutions%20%7C%20Safety%20and%20Security!5e0!3m2!1sen!2sin!4v1716808854486!5m2!1sen!2sin" width="250" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+          <div class="col mb-3">
+      
+          </div>
+      
+          <div class="col mb-3 text-black">
+          
+            <ul class="nav flex-column" class="list-unstyled">
+              <li class="nav-item mb-2"><i class="bi bi-telephone-fill" style = "color : darkblue;"></i><a href="tel:+919384222261" class="nav-link p-0 text-body-secondary" style="color:black;"><b>Phone</b></a><br>
+              <p style="color:black;">+91 93842 22261 <br> +91 73393 33614</p></li>
+              <h6><b>Quick links</b></h6>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Career</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Free Consultation</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Knowledge Hub</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Projects</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">FAQ</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Contact</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3 text-black">
+           
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><i class="bi bi-envelope-at-fill" style = "color : darkblue;"></i><a href="mailto:sales@vilvatech.in support@vilvatech.in" class="nav-link p-0 text-body-secondary"  style="color:black;"><b>Email</b></a><br>
+                <p style="color:black;">sales@vilvatech.in support@vilvatech.in</p></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color: black;"><b>Opening Hours</b></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black">Mon-Fri : 9.30 AM - 6.30 PM</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Sat & Sun : By Appointment</a></li>
+            </ul>
+          </div>
+          <div class="col mb-3 text-white">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><i class="bi bi-geo-alt-fill" style = "color : darkblue;"></i><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;" ><b>Headquarters</b></a><br>
+                <p style="color:black;" >#27,Rahman Nagar,Thanjavur,M.C.Road,Tamilnadu,India - 613 004.</p></li>
+              <li><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">15B,Gangai Amman Kovil Street,Vadapalani,Chennai - 600 026</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;"><b>Our Branches</b></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;">Trichy|Kumbakonam|Chennai</a></li><br>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:black;"><b>Download Brochure</b></a>
+              <img src="https://vilvatech.in/wp-content/uploads/2022/05/vilvatech-qr-code-1-150x150.png"></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      <div class="container.fluid" style="background-color: #EAEAEA;">
+        <footer class="py-3 my-4">
+          <p class="text-center text-body-secondary">&copy; 2024 VilvaTech – Experts in Automation. All Rights Reserved. Designed by Olir Designs</p>
+        </footer>
+      </div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
