@@ -1,0 +1,21 @@
+i {
+    color : goldenrod; 
+    font-size:60px;
+    padding-left:620px ;
+}
+p {
+    text-align : center;
+    font-family: sans-serif;
+}
+h1 {
+    color:blue;
+    text-align:center;
+}
+button {
+    color:white;
+    background-color:black;
+    width : 150px;
+    height : 50px;
+    border-radius:30px;
+    text-align : center;
+}
