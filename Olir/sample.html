@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Floating Icon</title>
+
+ <style>
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-icon {
+    position: left;
+    cursor: pointer;
+}
+.ico {
+    color : green;
+    font-size : 30px;
+}
+
+.tooltip {
+    position: absolute;
+    top: -30px; /* adjust as needed */
+    right: 130%; /* adjust as needed */
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.whatsapp-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+ </style>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="whatsapp-float">
+        <div class="whatsapp-icon" id="whatsapp-icon">
+            <i class="bi bi-whatsapp ico"></i>
+            <div class="tooltip" id="tooltip">Chat us on WhatsApp</div>
+        </div>
+    </div>
+
+    <script>
+document.getElementById("whatsapp-icon").addEventListener("click", function() {
+    // Replace `your_whatsapp_number` with your actual WhatsApp number
+    window.open("https://api.whatsapp.com/send?phone=your_whatsapp_number", "_blank");
+});
+
+    </script>
+</body>
+</html>
