@@ -1,0 +1,23 @@
+[
+    {
+        "name" : "Eichavathi",
+        "age"  :  19,
+        "department" : "BCA",
+        "location" : "Thanjavur",
+        "courses" : ["c","c++","java"]
+    },
+    {
+        "name" : "Nandhini",
+        "age"  :  19,
+        "department" : "BCA",
+        "location" : "Kumbakonam",
+        "courses" : ["python","c++","java"]
+    },
+    {
+        "name" : "Priya Vijitha",
+        "age"  :  19,
+        "department" : "BCA",
+        "location" : "Kumbakonam",
+        "courses" : ["reactjs","c++","python"]
+    }     
+]
