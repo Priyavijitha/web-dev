@@ -1,0 +1,7 @@
+{
+    "name" : "Eichavathi",
+    "age"  :  19,
+    "department" : "BCA",
+    "location" : "Thanjavur",
+    "courses" : ["c","c++","java"]
+}
